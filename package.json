@@ -12,8 +12,7 @@
     "express" : "^4.17.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lochan Potdar",
   "license": "ISC",
