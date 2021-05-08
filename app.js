@@ -92,7 +92,10 @@ app.get('/about-infrastructure',(req,res) => {
 app.get('/about-company',(req,res) => {
     res.render('aboutComp')
 })
-const PORT = 3000;
-app.listen(PORT,() => {
+const PORT = process.env.PORT;
+if(port === null || port == "") {
+    port = 3000;
+}   
+app.listen(port,() => {
     console.log(`Server Started on port ${PORT}`)
 })

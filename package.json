@@ -7,11 +7,17 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "ejs" : "^3.1.6",
+    "express" : "^4.17.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start" : "nodemon app.js"
   },
   "author": "Lochan Potdar",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node" : "12.14.1"
+  }
 }
