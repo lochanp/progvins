@@ -97,5 +97,5 @@ if(port === null || port === "") {
     port = 3000;
 }   
 app.listen(port,() => {
-    console.log(`Server Started on port ${PORT}`)
+    console.log(`Server Started on port ${port}`)
 })
