@@ -93,7 +93,7 @@ app.get('/about-company',(req,res) => {
     res.render('aboutComp')
 })
 const PORT = process.env.PORT;
-if(port === null || port == "") {
+if(port === null || port === "") {
     port = 3000;
 }   
 app.listen(port,() => {
