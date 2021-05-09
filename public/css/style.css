@@ -89,7 +89,6 @@ a:hover {
     padding: 1.6rem;
   }
   .back-img {
-    
     background-position: center;
     height: 18vh;
     background-image: url('/imgs/work.png');
@@ -184,10 +183,7 @@ table.Table tfoot td {
   .main-one-col {
     column-count: 1;
   }
-/* CONTACT */
-.gmap_canvas {
-  width: 100%;
-}
+
 /* FOOTER */
 footer {
   position: relative;
