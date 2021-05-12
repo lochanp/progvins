@@ -7,7 +7,6 @@
     padding: 0%;
 }
 body {
-    background-color: #fafafa;  
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
 }
@@ -72,7 +71,7 @@ a:hover {
 
 /* MAIN CONTAINER */
 .container {
-  height: 100vh;
+  height: 80vh;
 }
 .sub {
   font-size: 3.5rem !important;
@@ -108,7 +107,9 @@ a:hover {
   .content {
     line-height: 1.8;
     font-size: 18px;
-    padding: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
   }
   .about-img {
     padding: 2rem;
@@ -189,7 +190,6 @@ footer {
   position: relative;
   width: 100%;
   background-color:var(--dark-color);
-  height: 45vh;
 }
 .bottom-links {
   display: block;
@@ -211,11 +211,23 @@ footer {
   bottom:0;
   padding: 9px;
 }
+.middle-img {
+  margin-top:5rem !important;
+  width: 85%;
+  margin:2rem;
+  padding: 0;
+}
 @media(max-width:700px) {
     .main {
       column-count: 1;
     }
-    .about-img {
+    .sub-heading {
+      font-size: 2rem;
+    }
+    .sub {
+      font-size: 2.5rem !important;
+    }
+    img {
       display: block;
       width: 100%;
       overflow: hidden;
