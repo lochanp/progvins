@@ -20,6 +20,13 @@ a {
 a:hover {
     color: var(--dark-color);
 }
+.head-contact {
+  position: absolute; 
+  margin: 10px; 
+  right:0; 
+  top: 0; 
+  color: whitesmoke;
+}
 .navbar {
     background-color: var(--primary-color);
 }
@@ -231,5 +238,8 @@ footer {
       display: block;
       width: 100%;
       overflow: hidden;
+    }
+    .navbar-brand {
+      margin-top: 1.2rem;
     }
   }
