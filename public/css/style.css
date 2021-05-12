@@ -242,4 +242,9 @@ footer {
     .navbar-brand {
       margin-top: 1.2rem;
     }
+    .nav-link {
+      padding: 0%;
+      margin: 1rem;
+      border: 0 !important;
+    }
   }
