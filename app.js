@@ -33,6 +33,12 @@ app.get('/nickel-service',(req,res) => {
 app.get('/chrome-service',(req,res) => {
     res.render('chromeService')
 })
+app.get('/copper-service',(req,res) => {
+    res.render('copperService')
+})
+app.get('/other-service',(req,res) => {
+    res.render('otherService')
+})
 
 //Material Routes
 app.get('/plating-materials',(req,res) => {
@@ -94,8 +100,8 @@ app.get('/about-company',(req,res) => {
 })
 let port = process.env.PORT;
 if(port === null || port === "") {
-    port = 8000;
+    port = 3000;
 }   
-app.listen(port,() => {
+app.listen(3000,() => {
     console.log(`Server Started on port ${port}`)
 })
