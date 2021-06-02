@@ -104,9 +104,12 @@ a:hover {
   }
   .back-img {
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 18vh;
-    background-image: url('/imgs/work.png');
+    background-image: url('/imgs/back-img.jpg');
     opacity: 0.9;
+    
   }
   /* HOME PAGE */
   .contain {
@@ -323,6 +326,50 @@ footer {
   margin:2rem;
   padding: 0;
 }
+/* Silver Table */
+div.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 70%;
+  text-align:center;
+  margin: auto;
+  border-collapse: collapse;
+}
+.divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+.divTable.blueTable .divTableBody .divTableCell {
+  font-size: 13px;
+}
+.blueTable .tableFootStyle {
+  font-size: 14px;
+}
+.blueTable .tableFootStyle .links {
+	 text-align: right;
+}
+.blueTable .tableFootStyle .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.blueTable.outerTableFooter {
+  border-top: none;
+}
+.blueTable.outerTableFooter .tableFootStyle {
+  padding: 3px 5px; 
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
 @media(max-width:700px) {
     .main {
       column-count: 1;

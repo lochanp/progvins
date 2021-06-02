@@ -39,7 +39,9 @@ app.get('/pmd-service', (req, res) => {
 app.get('/other-service', (req, res) => {
     res.render('otherService')
 })
-
+app.get('/platingOnPlastic-service', (req, res) => {
+    res.render('PopService')
+})
 //Material Routes
 app.get('/plating-materials', (req, res) => {
     res.render('materials')
@@ -102,6 +104,6 @@ let port = process.env.PORT;
 if (port === null || port === "") {
     port = 3000;
 }
-app.listen(port, () => {
+app.listen(3000, () => {
     console.log(`Server Started on port ${port}`)
 })
