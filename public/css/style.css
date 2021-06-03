@@ -1,0 +1,430 @@
+:root {
+    --primary-color : #928C80;
+    --dark-color : #555555;
+    --btn-color : #F26136;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+}
+h1 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: var(--btn-color);
+}
+.btn {
+  background-color: var(--primary-color);
+  color: black;
+}
+.btn:hover {
+  background-color:var(--btn-color);
+}
+.head-contact {
+  position: absolute; 
+  margin: 10px; 
+  right:0; 
+  top: 0; 
+  color: var(--dark-color);
+}
+.navbar {
+    background-color: white;
+}
+.navbar-brand {
+  margin: 0%;
+  padding: 0%;
+  height: 18vh;
+}
+.navbar-toggler {
+  border-style: none;
+  text-decoration: none;
+  border: none;
+  color:#fafafa;
+}
+.nav-link {
+  color: var(--dark-color);
+  margin: 0.6rem;
+  font-weight: bold;
+}
+/* Dropdown Button */  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width:13rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+ /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }  
+
+/* MAIN CONTAINER */
+
+.sub {
+  font-size: 3.5rem !important;
+}
+.sub-heading {
+    color: black; 
+    position: relative;
+    background-color: rgba(255,255, 255, 0.4);
+    height: 18vh;
+    font-family: 'Bebas Neue','Sans Serif';
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    padding: 1.6rem;
+  }
+  .back-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18vh;
+    background-image: url('/imgs/back-img.jpg');
+    opacity: 0.9;
+    
+  }
+  /* HOME PAGE */
+  .contain {
+    position: relative;
+    background-image: url('/imgs/progvins.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem; 
+  }
+  .me {
+    position: relative;
+    color: black;
+    background-color: rgba(255,255, 255, 0.4);
+    padding:3rem 0;
+  }
+  .tag-line {
+    position: relative;
+    font-family: 'Staatliches','Sans Serif';
+    font-size: 3.3rem;
+    letter-spacing: 1.8px;
+    text-align: center;
+    margin: 3rem;
+    margin-top: 0%;
+  }
+  .tag {
+    position: relative;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin: 2rem 12rem;
+  }
+  /* .btn-main {
+    margin: 0 37%;
+  } */
+  .btn-main .btn {
+    margin: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: var(--btn-color);
+    border-radius: 0.7rem;
+  }
+  .home {
+    color: white;
+    background-color: rgba(0,0, 0, 0.6);
+  }
+  .home-heading {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-middle {
+    background-color: #e1e5ea; 
+    padding: 1px; 
+    
+  }
+  .home-ico {
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+    background-color: #e1e5ea;
+    padding: 0 9rem;
+  }
+  .home-ico .fas {
+    margin: 0 0 1rem 4rem;
+    font-size: 3rem;
+  }
+  .small-ico {
+   color: gray;
+  }
+  /* ABOUT */
+  .main {
+    box-shadow: 1px 5px 10px 1px var(--dark-color);
+    width: 95%;
+    position: relative;
+    margin: auto;
+    column-count: 2;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .content {
+    line-height: 1.8;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+  }
+  .about-img {
+    padding: 2rem;
+    padding-right: 3.3rem;
+    float: right;
+  }
+table.Table {
+  border: 4px solid #FFFFFF;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.Table td, table.Table th {
+  border: 0px solid #FFFFFF;
+  padding: 6px 8px;
+}
+table.Table tr:nth-child(even) {
+  background: #e8eae6;
+} 
+table.Table tfoot td {
+  font-size: 12px;
+}
+  /* about-quality */
+  .main-content {
+    background-image: url('/imgs/progvins.png');
+  }
+  .main-initial {
+    margin:1.2rem 3rem;
+    padding: 2rem 1rem;
+    background-color: rgb(0, 0, 0,0.7);
+    color: #fafafa;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .row {
+    position:relative;
+    margin: 0%;
+  }
+  .card {
+    box-shadow: 1px 5px 10px 1px var(--dark-color);
+    position: relative;
+    float: right;
+    margin: 2rem;
+  }
+  .card-title {
+    font-weight: bold;
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    margin: 0%;
+    color: black;
+  }
+  .card-text {
+    line-height: 1.6 !important;
+    padding: 1rem;
+    padding-bottom: 0%;
+  }
+  /* about-infrastructure */
+  .infrastructure {
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    margin: 1rem;
+  }
+  .inner-heading {
+    font-size: 2.3rem;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 0 !important;
+    padding: 1.4rem;
+    background-color: #fafafa;
+    letter-spacing: 1.4px;
+  }
+  .main-one-col {
+    column-count: 1;
+  }
+
+/* SERVICES & PROCESSES */
+.inner-main {
+  width: 100%;
+  text-align: center;
+}
+.inner-content {
+  margin: 0 5rem;
+  font-size: 18px;
+}
+.para {
+  margin: 0 2rem;
+}
+.read-btn {
+  padding: 0.7rem;
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  background-color: var(--btn-color) !important;
+}
+.read-btn:hover {
+  background-color: var(--primary-color) !important;
+}
+/* Electroplating method */
+.vid {
+  text-align: center;
+}
+/* FOOTER */
+footer {
+  position: relative;
+  width: 100%;
+  background-color:var(--dark-color);
+}
+.bottom-links {
+  display: block;
+  color: #f1f1f1;
+  padding: 0.4rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+.bottom-links:hover {
+  background-color: var(--primary-color);
+}
+.copyright {
+  position: absolute;
+  width: 98%;
+  text-align: right;
+  color:white;
+  /* background-color: var(--primary-color); */
+  line-height: 6px;
+  bottom:0;
+  padding-bottom:1rem;
+}
+.middle-img {
+  margin-top:5rem !important;
+  width: 85%;
+  margin:2rem;
+  padding: 0;
+}
+/* Silver Table */
+div.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 70%;
+  text-align:center;
+  margin: auto;
+  border-collapse: collapse;
+}
+.divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+.divTable.blueTable .divTableBody .divTableCell {
+  font-size: 13px;
+}
+.blueTable .tableFootStyle {
+  font-size: 14px;
+}
+.blueTable .tableFootStyle .links {
+	 text-align: right;
+}
+.blueTable .tableFootStyle .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.blueTable.outerTableFooter {
+  border-top: none;
+}
+.blueTable.outerTableFooter .tableFootStyle {
+  padding: 3px 5px; 
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
+@media(max-width:700px) {
+    .main {
+      column-count: 1;
+    }
+    .sub-heading {
+      font-size: 2rem;
+    }
+    .sub {
+      font-size: 3rem !important;
+    }
+    img {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+    }
+    .navbar-brand {
+      margin-top: 1.2rem;
+    }
+    .nav-link {
+      padding: 0%;
+      margin: 2rem;
+      border: 0 !important;
+    }
+    .tag-line {
+      font-size: 2.6rem;
+    }
+    .tag {
+      margin: 1rem;
+    }
+    .btn-main {
+      margin:2rem 5rem;
+    }
+    .btn-main .btn {
+      margin: 0.3rem;
+    }
+    .copyright {
+      text-align: left;
+    }
+    .home-ico {
+      display: none;
+    }
+    .tag a {
+      margin: 1rem !important;
+    }
+    .home-heading {
+      margin-top: 0 !important;
+    }
+    .col-sm-4 {
+      width: 90%;
+    }
+  }
