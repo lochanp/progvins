@@ -298,6 +298,9 @@ table.Table tfoot td {
 .read-btn:hover {
   background-color: var(--primary-color) !important;
 }
+.service-img {
+  height: 45vh;
+}
 /* Electroplating method */
 .vid {
   text-align: center;
@@ -378,6 +381,10 @@ div.blueTable {
 .divTableBody { display: table-row-group;}
 
 @media(max-width:700px) {
+    .navbar-toggler-icon {
+      background-color: var(--dark-color);
+      padding: 0.6rem 1.7rem 1.5rem 0.6rem;
+    }
     .main {
       column-count: 1;
     }
@@ -394,6 +401,8 @@ div.blueTable {
     }
     .navbar-brand {
       margin-top: 1.2rem;
+      margin-bottom: 0;
+      padding-bottom: 0%;
     }
     .nav-link {
       padding: 0%;
@@ -407,13 +416,15 @@ div.blueTable {
       margin: 1rem;
     }
     .btn-main {
-      margin:2rem 5rem;
+      margin:auto;
     }
     .btn-main .btn {
-      margin: 0.3rem;
+      margin: auto;
+      font-size: 0.8rem;
     }
     .copyright {
       text-align: left;
+      line-height: 0;
     }
     .home-ico {
       display: none;
@@ -426,5 +437,12 @@ div.blueTable {
     }
     .col-sm-4 {
       width: 90%;
+    }
+    .vid {
+      width: 90% !important;
+    }
+    .service-img {
+      height: 30vh;
+      padding: 1rem;
     }
   }
