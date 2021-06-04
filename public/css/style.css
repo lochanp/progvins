@@ -301,6 +301,13 @@ table.Table tfoot td {
 .service-img {
   height: 45vh;
 }
+.plating-img {
+  width: 65vh;
+  height: 50vh;
+  margin-left: 6rem; 
+  margin-top: 1.5rem; 
+  margin-bottom: 1rem;
+}
 /* Electroplating method */
 .vid {
   text-align: center;
@@ -443,6 +450,11 @@ div.blueTable {
     }
     .service-img {
       height: 30vh;
+      padding: 1rem;
+    }
+    .plating-img {
+      margin: auto;
+      width: 90%;
       padding: 1rem;
     }
   }
