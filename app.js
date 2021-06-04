@@ -27,8 +27,8 @@ app.get('/palladium-service', (req, res) => {
 app.get('/silver-service', (req, res) => {
     res.render('silverService')
 })
-app.get('/platium-service', (req, res) => {
-    res.render('platiumService')
+app.get('/platinum-service', (req, res) => {
+    res.render('platinumService')
 })
 app.get('/rhodium-service', (req, res) => {
     res.render('rhodiumService')
