@@ -147,7 +147,8 @@ a:hover {
     margin: 0 37%;
   } */
   .btn-main .btn {
-    margin: 1rem;
+    position: relative;
+    margin: 0 10.2%;
     font-size: 1.2rem;
     border: none;
     background-color: var(--btn-color);
@@ -176,7 +177,7 @@ a:hover {
     padding: 0 9rem;
   }
   .home-ico .fas {
-    margin: 0 0 1rem 4rem;
+    margin: 2%;
     font-size: 3rem;
   }
   .small-ico {
@@ -387,6 +388,12 @@ div.blueTable {
 .divTableHeading { display: table-header-group;}
 .divTableFoot { display: table-footer-group;}
 .divTableBody { display: table-row-group;}
+
+@media(max-width:1200px) {
+  .home-ico .fas {
+    display: none;
+  }
+}
 
 @media(max-width:700px) {
     .navbar-toggler-icon {
