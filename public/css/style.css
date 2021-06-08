@@ -154,6 +154,7 @@ a:hover {
     border: none;
     background-color: var(--btn-color);
     border-radius: 0.7rem;
+    padding: 1px;
   }
   .home {
     color: white;
