@@ -146,9 +146,10 @@ a:hover {
   /* .btn-main {
     margin: 0 37%;
   } */
-  .btn-main .btn {
+  .info {
     position: relative;
-    margin: 0 10.2%;
+    margin: 3%;
+    text-align: center;
     font-size: 1.2rem;
     border: none;
     background-color: var(--btn-color);
