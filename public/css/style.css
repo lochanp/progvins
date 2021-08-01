@@ -1,42 +1,42 @@
 :root {
-    --primary-color : #928C80;
-    --dark-color : #555555;
-    --btn-color : #F26136;
+  --primary-color: #928c80;
+  --dark-color: #555555;
+  --btn-color: #f26136;
 }
 * {
-    margin: 0%;
-    padding: 0%;
+  margin: 0%;
+  padding: 0%;
 }
 body {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 16px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
 }
 h1 {
-    margin: 0;
+  margin: 0;
 }
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 a:hover {
-    color: var(--btn-color);
+  color: var(--btn-color);
 }
 .btn {
   background-color: var(--primary-color);
   color: black;
 }
 .btn:hover {
-  background-color:var(--btn-color);
+  background-color: var(--btn-color);
 }
 .head-contact {
-  position: absolute; 
-  margin: 10px; 
-  right:0; 
-  top: 0; 
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  top: 0;
   color: var(--dark-color);
 }
 .navbar {
-    background-color: white;
+  background-color: white;
 }
 .navbar-brand {
   margin: 0%;
@@ -47,44 +47,43 @@ a:hover {
   border-style: none;
   text-decoration: none;
   border: none;
-  color:#fafafa;
+  color: #fafafa;
 }
 .nav-link {
   color: var(--dark-color);
   margin: 0.6rem;
   font-weight: bold;
 }
-/* Dropdown Button */  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    width:13rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    text-align: center;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-  }
- /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-    
-  }  
+/* Dropdown Button */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 13rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* MAIN CONTAINER */
 
@@ -92,192 +91,194 @@ a:hover {
   font-size: 3.5rem !important;
 }
 .sub-heading {
-    color: black; 
-    position: relative;
-    background-color: rgba(255,255, 255, 0.4);
-    height: 18vh;
-    font-family: 'Bebas Neue','Sans Serif';
-    text-align: center;
-    font-size: 3rem;
-    letter-spacing: 2px;
-    padding: 1.6rem;
-  }
-  .back-img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 18vh;
-    background-image: url('/imgs/back-img.jpg');
-    opacity: 0.9;
-    
-  }
-  /* HOME PAGE */
-  .contain {
-    position: relative;
-    background-image: url('/imgs/progvins.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 3rem; 
-  }
-  .me {
-    position: relative;
-    color: black;
-    background-color: rgba(255,255, 255, 0.4);
-    padding:3rem 0;
-  }
-  .tag-line {
-    position: relative;
-    font-family: 'Staatliches','Sans Serif';
-    font-size: 3.3rem;
-    letter-spacing: 1.8px;
-    text-align: center;
-    margin: 3rem;
-    margin-top: 0%;
-  }
-  .tag {
-    position: relative;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    margin: 2rem 12rem;
-  }
-  /* .btn-main {
+  color: black;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 18vh;
+  font-family: 'Bebas Neue', 'Sans Serif';
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  padding: 1.6rem;
+}
+.back-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18vh;
+  background-image: url('/imgs/back-img.jpg');
+  opacity: 0.9;
+}
+/* HOME PAGE */
+.contain {
+  position: relative;
+  background-image: url('/imgs/progvins.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem;
+}
+.me {
+  position: relative;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 3rem 0;
+}
+.tag-line {
+  position: relative;
+  font-family: 'Staatliches', 'Sans Serif';
+  font-size: 3.3rem;
+  letter-spacing: 1.8px;
+  text-align: center;
+  margin: 3rem;
+  margin-top: 0%;
+}
+.tag {
+  position: relative;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin: 2rem 12rem;
+}
+/* .btn-main {
     margin: 0 37%;
   } */
-  .info {
-    position: relative;
-    margin: 3%;
-    text-align: center;
-    font-size: 1.2rem;
-    border: none;
-    background-color: var(--btn-color);
-    border-radius: 0.7rem;
-    padding: 1px;
-  }
-  .home {
-    color: white;
-    background-color: rgba(0,0, 0, 0.6);
-  }
-  .home-heading {
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .home-middle {
-    background-color: #e1e5ea; 
-    padding: 1px; 
-    
-  }
-  .home-ico {
-    position: absolute;
-    text-align: center;
-    z-index: 10;
-    background-color: #e1e5ea;
-    padding: 0 9rem;
-  }
-  .home-ico .fas {
-    margin: 2%;
-    font-size: 3rem;
-  }
-  .small-ico {
-   color: gray;
-  }
-  /* ABOUT */
-  .main {
-    box-shadow: 1px 5px 10px 1px var(--dark-color);
-    width: 95%;
-    position: relative;
-    margin: auto;
-    column-count: 2;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-  }
-  .content {
-    line-height: 1.8;
-    font-size: 18px;
-    padding: 1rem;
-    margin: 1rem;
-    margin-bottom: 2rem;
-  }
-  .about-img {
-    padding: 2rem;
-    padding-right: 3.3rem;
-    float: right;
-  }
+.info {
+  position: relative;
+  margin: 3%;
+  text-align: center;
+  font-size: 1.2rem;
+  border: none;
+  background-color: var(--btn-color);
+  border-radius: 0.7rem;
+  padding: 1px;
+}
+.home {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.home-heading {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.home-middle {
+  background-color: #e1e5ea;
+  padding: 1px;
+}
+.home-ico {
+  display: flex;
+
+  justify-content: space-between;
+  z-index: 10;
+  background-color: #e1e5ea;
+  margin: 0 8rem;
+}
+.home-ico .fas {
+  font-size: 3rem;
+}
+.ico-text {
+  margin-left: 2rem;
+}
+.small-ico {
+  margin-right: 2.8rem;
+}
+/* ABOUT */
+.main {
+  box-shadow: 1px 5px 10px 1px var(--dark-color);
+  width: 95%;
+  position: relative;
+  margin: auto;
+  column-count: 2;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.content {
+  line-height: 1.8;
+  font-size: 18px;
+  padding: 1rem;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+.about-img {
+  padding: 2rem;
+  padding-right: 3.3rem;
+  float: right;
+}
 table.Table {
-  border: 4px solid #FFFFFF;
+  border: 4px solid #ffffff;
   width: 100%;
   height: 400px;
   text-align: center;
   border-collapse: collapse;
 }
-table.Table td, table.Table th {
-  border: 0px solid #FFFFFF;
+table.Table td,
+table.Table th {
+  border: 0px solid #ffffff;
   padding: 6px 8px;
 }
 table.Table tr:nth-child(even) {
   background: #e8eae6;
-} 
+}
 table.Table tfoot td {
   font-size: 12px;
 }
-  /* about-quality */
-  .main-content {
-    background-image: url('/imgs/progvins.png');
-  }
-  .main-initial {
-    margin:1.2rem 3rem;
-    padding: 2rem 1rem;
-    background-color: rgb(0, 0, 0,0.7);
-    color: #fafafa;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 1.6;
-  }
-  .row {
-    position:relative;
-    margin: 0%;
-  }
-  .card {
-    box-shadow: 1px 5px 10px 1px var(--dark-color);
-    position: relative;
-    float: right;
-    margin: 2rem;
-  }
-  .card-title {
-    font-weight: bold;
-    background-color: var(--primary-color);
-    padding: 0.5rem;
-    margin: 0%;
-    color: black;
-  }
-  .card-text {
-    line-height: 1.6 !important;
-    padding: 1rem;
-    padding-bottom: 0%;
-  }
-  /* about-infrastructure */
-  .infrastructure {
-    position: relative;
-    width: 100%;
-    padding: 2rem;
-    margin: 1rem;
-  }
-  .inner-heading {
-    font-size: 2.3rem;
-    font-family: 'Staatliches', cursive;
-    margin-bottom: 0 !important;
-    padding: 1.4rem;
-    background-color: #fafafa;
-    letter-spacing: 1.4px;
-  }
-  .main-one-col {
-    column-count: 1;
-  }
+/* about-quality */
+.main-content {
+  background-image: url('/imgs/progvins.png');
+}
+.main-initial {
+  margin: 1.2rem 3rem;
+  padding: 2rem 1rem;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.6;
+}
+.row {
+  position: relative;
+  margin: 0%;
+}
+.card {
+  box-shadow: 1px 5px 10px 1px var(--dark-color);
+  position: relative;
+  float: right;
+  margin: 2rem;
+}
+.card-title {
+  font-weight: bold;
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  margin: 0%;
+  color: black;
+}
+.card-text {
+  line-height: 1.6 !important;
+  padding: 1rem;
+  padding-bottom: 0%;
+}
+/* about-infrastructure */
+.infrastructure {
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  margin: 1rem;
+}
+.inner-heading {
+  font-size: 2.3rem;
+  font-family: 'Staatliches', cursive;
+  margin-bottom: 0 !important;
+  padding: 1.4rem;
+  background-color: #fafafa;
+  letter-spacing: 1.4px;
+}
+.main-one-col {
+  column-count: 1;
+}
 
 /* SERVICES & PROCESSES */
 .inner-main {
@@ -307,8 +308,8 @@ table.Table tfoot td {
 .plating-img {
   width: 65vh;
   height: 50vh;
-  margin-left: 6rem; 
-  margin-top: 1.5rem; 
+  margin-left: 6rem;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 /* Electroplating method */
@@ -320,7 +321,7 @@ table.Table tfoot td {
 footer {
   position: relative;
   width: 100%;
-  background-color:var(--dark-color);
+  background-color: var(--dark-color);
 }
 .bottom-links {
   display: block;
@@ -335,29 +336,30 @@ footer {
   position: absolute;
   width: 98%;
   text-align: right;
-  color:white;
+  color: white;
   /* background-color: var(--primary-color); */
   line-height: 6px;
-  bottom:0;
-  padding-bottom:1rem;
+  bottom: 0;
+  padding-bottom: 1rem;
 }
 .middle-img {
-  margin-top:5rem !important;
+  margin-top: 5rem !important;
   width: 85%;
-  margin:2rem;
+  margin: 2rem;
   padding: 0;
 }
 /* Silver Table */
 div.blueTable {
-  border: 1px solid #1C6EA4;
-  background-color: #EEEEEE;
+  border: 1px solid #1c6ea4;
+  background-color: #eeeeee;
   width: 70%;
-  text-align:center;
+  text-align: center;
   margin: auto;
   border-collapse: collapse;
 }
-.divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
-  border: 1px solid #AAAAAA;
+.divTable.blueTable .divTableCell,
+.divTable.blueTable .divTableHead {
+  border: 1px solid #aaaaaa;
   padding: 3px 2px;
 }
 .divTable.blueTable .divTableBody .divTableCell {
@@ -367,12 +369,12 @@ div.blueTable {
   font-size: 14px;
 }
 .blueTable .tableFootStyle .links {
-	 text-align: right;
+  text-align: right;
 }
-.blueTable .tableFootStyle .links a{
+.blueTable .tableFootStyle .links a {
   display: inline-block;
-  background: #1C6EA4;
-  color: #FFFFFF;
+  background: #1c6ea4;
+  color: #ffffff;
   padding: 2px 8px;
   border-radius: 5px;
 }
@@ -380,94 +382,109 @@ div.blueTable {
   border-top: none;
 }
 .blueTable.outerTableFooter .tableFootStyle {
-  padding: 3px 5px; 
+  padding: 3px 5px;
 }
 /* DivTable.com */
-.divTable{ display: table; }
-.divTableRow { display: table-row; }
-.divTableHeading { display: table-header-group;}
-.divTableCell, .divTableHead { display: table-cell;}
-.divTableHeading { display: table-header-group;}
-.divTableFoot { display: table-footer-group;}
-.divTableBody { display: table-row-group;}
+.divTable {
+  display: table;
+}
+.divTableRow {
+  display: table-row;
+}
+.divTableHeading {
+  display: table-header-group;
+}
+.divTableCell,
+.divTableHead {
+  display: table-cell;
+}
+.divTableHeading {
+  display: table-header-group;
+}
+.divTableFoot {
+  display: table-footer-group;
+}
+.divTableBody {
+  display: table-row-group;
+}
 
-@media(max-width:1200px) {
+@media (max-width: 1200px) {
   .home-ico .fas {
     display: none;
   }
 }
 
-@media(max-width:700px) {
-    .navbar-toggler-icon {
-      background-color: var(--dark-color);
-      padding: 0.4rem 1.6rem 1.5rem 0.6rem;
-      margin-top: 1rem;
-    }
-    .main {
-      column-count: 1;
-    }
-    .sub-heading {
-      font-size: 2rem;
-    }
-    .sub {
-      font-size: 3rem !important;
-    }
-    img {
-      display: block;
-      width: 100%;
-      overflow: hidden;
-    }
-    .navbar-brand {
-      margin-top: 1.2rem;
-      margin-bottom: 0;
-      padding-bottom: 0%;
-    }
-    .nav-link {
-      padding: 0%;
-      margin: 2rem;
-      border: 0 !important;
-    }
-    .tag-line {
-      font-size: 2.5rem;
-      padding: 0%;
-      margin: 0%;
-    }
-    .tag {
-      margin: 1rem;
-    }
-    .btn-main {
-      margin:auto;
-    }
-    .btn-main .btn {
-      margin: auto;
-      font-size: 0.8rem;
-    }
-    .copyright {
-      text-align: left;
-      line-height: 0;
-    }
-    .home-ico {
-      display: none;
-    }
-    .tag a {
-      margin: 1rem !important;
-    }
-    .home-heading {
-      margin-top: 0 !important;
-    }
-    .col-sm-4 {
-      width: 90%;
-    }
-    .vid {
-      width: 90% !important;
-    }
-    .service-img {
-      height: 30vh;
-      padding: 1rem;
-    }
-    .plating-img {
-      margin: auto;
-      width: 90%;
-      padding: 1rem;
-    }
+@media (max-width: 700px) {
+  .navbar-toggler-icon {
+    background-color: var(--dark-color);
+    padding: 0.4rem 1.6rem 1.5rem 0.6rem;
+    margin-top: 1rem;
   }
+  .main {
+    column-count: 1;
+  }
+  .sub-heading {
+    font-size: 2rem;
+  }
+  .sub {
+    font-size: 3rem !important;
+  }
+  img {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+  .navbar-brand {
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+  }
+  .nav-link {
+    padding: 0%;
+    margin: 2rem;
+    border: 0 !important;
+  }
+  .tag-line {
+    font-size: 2.5rem;
+    padding: 0%;
+    margin: 0%;
+  }
+  .tag {
+    margin: 1rem;
+  }
+  .btn-main {
+    margin: auto;
+  }
+  .btn-main .btn {
+    margin: auto;
+    font-size: 0.8rem;
+  }
+  .copyright {
+    text-align: left;
+    line-height: 0;
+  }
+  .home-ico {
+    display: none;
+  }
+  .tag a {
+    margin: 1rem !important;
+  }
+  .home-heading {
+    margin-top: 0 !important;
+  }
+  .col-sm-4 {
+    width: 90%;
+  }
+  .vid {
+    width: 90% !important;
+  }
+  .service-img {
+    height: 30vh;
+    padding: 1rem;
+  }
+  .plating-img {
+    margin: auto;
+    width: 90%;
+    padding: 1rem;
+  }
+}

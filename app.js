@@ -2,108 +2,108 @@ const express = require('express');
 
 const app = express();
 
-app.set('view engine', 'ejs')
-app.use(express.static('public'))
+app.set('view engine', 'ejs');
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.render('home')
-})
+  res.render('home');
+});
 app.get('/contact', (req, res) => {
-    res.render('contact')
-})
+  res.render('contact');
+});
 //SERVICES ROUTES
 app.get('/services-processes', (req, res) => {
-    res.render('services')
-})
+  res.render('services');
+});
 app.get('/enp-service', (req, res) => {
-    res.render('enpService')
-})
+  res.render('enpService');
+});
 app.get('/gold-service', (req, res) => {
-    res.render('goldService')
-})
+  res.render('goldService');
+});
 app.get('/palladium-service', (req, res) => {
-    res.render('palladiumService')
-})
+  res.render('palladiumService');
+});
 app.get('/silver-service', (req, res) => {
-    res.render('silverService')
-})
+  res.render('silverService');
+});
 app.get('/platinum-service', (req, res) => {
-    res.render('platinumService')
-})
+  res.render('platinumService');
+});
 app.get('/rhodium-service', (req, res) => {
-    res.render('rhodiumService')
-})
+  res.render('rhodiumService');
+});
 app.get('/pmd-service', (req, res) => {
-    res.render('pmdService')
-})
+  res.render('pmdService');
+});
 app.get('/other-service', (req, res) => {
-    res.render('otherService')
-})
+  res.render('otherService');
+});
 app.get('/platingOnPlastic-service', (req, res) => {
-    res.render('PopService')
-})
+  res.render('PopService');
+});
 //Material Routes
 app.get('/plating-materials', (req, res) => {
-    res.render('materials')
-})
+  res.render('materials');
+});
 app.get('/gold-material', (req, res) => {
-    res.render('goldMaterials')
-})
+  res.render('goldMaterials');
+});
 app.get('/silver-material', (req, res) => {
-    res.render('silverMaterials')
-})
+  res.render('silverMaterials');
+});
 app.get('/copper-material', (req, res) => {
-    res.render('copperMaterials')
-})
+  res.render('copperMaterials');
+});
 app.get('/nickel-material', (req, res) => {
-    res.render('nickelMaterials')
-})
+  res.render('nickelMaterials');
+});
 app.get('/rhodium-material', (req, res) => {
-    res.render('rhodiumMaterials')
-})
+  res.render('rhodiumMaterials');
+});
 app.get('/palladium-material', (req, res) => {
-    res.render('palladiumMaterials')
-})
+  res.render('palladiumMaterials');
+});
 app.get('/platinum-material', (req, res) => {
-    res.render('platinumMaterials')
-})
+  res.render('platinumMaterials');
+});
 app.get('/indium-material', (req, res) => {
-    res.render('indiumMaterials')
-})
+  res.render('indiumMaterials');
+});
 //Method Routes
 app.get('/plating-methods', (req, res) => {
-    res.render('methods')
-})
+  res.render('methods');
+});
 app.get('/electroless-method', (req, res) => {
-    res.render('electrolessMethod')
-})
+  res.render('electrolessMethod');
+});
 app.get('/special-method', (req, res) => {
-    res.render('specialMethod')
-})
+  res.render('specialMethod');
+});
 app.get('/electroplating-method', (req, res) => {
-    res.render('electroplatingMethod')
-})
+  res.render('electroplatingMethod');
+});
 app.get('/silver-method', (req, res) => {
-    res.render('silverMethod')
-})
+  res.render('silverMethod');
+});
 
 //ABOUT ROUTES
 app.get('/about', (req, res) => {
-    res.render('about')
-})
+  res.render('about');
+});
 app.get('/about-quality', (req, res) => {
-    res.render('aboutQlty')
-})
+  res.render('aboutQlty');
+});
 app.get('/about-infrastructure', (req, res) => {
-    res.render('aboutInfras')
-})
+  res.render('aboutInfras');
+});
 app.get('/about-company', (req, res) => {
-    res.render('aboutComp')
-})
+  res.render('aboutComp');
+});
 let port = process.env.PORT;
-if (port === null || port === "") {
-    port = 3000;
+if (port === null || port === '') {
+  port = 3000;
 }
 app.listen(port, () => {
-    console.log(`Server Started on port ${port}`)
-})
+  console.log(`Server Started on port ${port}`);
+});
