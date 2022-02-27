@@ -109,6 +109,33 @@ a:hover {
   background-image: url('/imgs/back-img.jpg');
   opacity: 0.9;
 }
+.back-img-electro {
+  background-image: url('/imgs/electroless-bg.jpeg');  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18vh;
+  /* z-index: 1; */
+  opacity: 0.94;
+}
+.back-img-plating {
+  background-image: url('/imgs/plating-bg.jpeg');  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18vh;
+  /* z-index: 1; */
+  opacity: 0.94;
+}
+.back-img-lab {
+  background-image: url('/imgs/44.jpeg');  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18vh;
+  /* z-index: 1; */
+  opacity: 0.94;
+}
 /* HOME PAGE */
 .contain {
   position: relative;
@@ -187,7 +214,7 @@ a:hover {
 }
 /* ABOUT */
 .main {
-  box-shadow: 1px 5px 10px 1px var(--dark-color);
+  /* box-shadow: 1px 5px 10px 1px var(--dark-color); */
   width: 95%;
   position: relative;
   margin: auto;
@@ -228,6 +255,12 @@ table.Table tfoot td {
 /* about-quality */
 .main-content {
   background-image: url('/imgs/progvins.png');
+}
+.main-content-plating {
+   background-image: url('/imgs/plating-footer.jpeg');
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-initial {
   margin: 1.2rem 3rem;
